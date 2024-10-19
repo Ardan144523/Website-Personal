@@ -1,0 +1,134 @@
+html {
+    scroll-behaviour : smooth;
+}
+
+body {
+   background-color: rgb(88, 98, 98);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Menengahkan konten secara horizontal */
+    align-items: center; /* Menengahkan konten secara vertikal */
+    text-align: center;
+    
+}
+.Profile {
+    display: flex;
+    align-items: center; /* Menjaga gambar dan teks tetap sejajar secara vertikal */
+    margin-top: 80px;
+    
+}
+.Image {
+    margin-right: 200px; /* Memberi jarak antara gambar dan teks */
+    width: 700px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+}
+.info {
+    display: flex;
+    flex-direction: column; /* Menyusun informasi secara vertikal */
+    color: #FFFFFF;
+    text-align: left;
+}
+.row {
+    display: flex;
+    justify-content: space-between; /* Menyusun kolom agar terdistribusi dengan baik */
+    margin-bottom: 10px; /* Jarak antara baris */
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Menengahkan teks secara vertikal */
+    text-align: center; /* Menyelaraskan teks di tengah secara horizontal */
+    height: 100%; /* Memastikan tinggi div .text mengikuti container */
+    margin-right: 20px;
+}
+.text h2 {
+    font-size: 50px; /* Sesuaikan ukuran untuk judul, misalnya 24px */
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin: 10px;
+
+}
+.button-container {
+    margin-top: 20px; /* Jarak antara informasi dan tombol */
+    text-align: left; /* Mengatur teks di dalam tombol ke kiri */
+}
+
+.btn {
+    display: inline-block; /* Menjadikan tombol tampil sebagai inline block */
+    padding: 10px 20px; /* Ukuran tombol */
+    font-size: 16px; /* Ukuran font */
+    color: white; /* Warna teks tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Sudut membulat */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: background-color 0.3s; /* Transisi latar belakang */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+.Certification {
+    padding-top: 55px;
+}
+.tableall {
+    width: 1000px; /* Lebar tabel */
+    table-layout: auto;
+    border-collapse: collapse;
+    margin: 0 auto; 
+}
+
+
+.biodata {
+    background: linear-gradient(#ffffff 0%, #ffffffcd 40%, #ffffff00 100%);
+    padding-bottom: 50px;
+    padding-top: 55px;
+}
+.startEnd {
+    margin-bottom: 10px;
+}
+.startOn {
+    display: flex;
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    position: relative;
+    top: 10px;
+}
+.portfolio {
+    padding: 40px 0; /* Memberi jarak vertikal untuk seluruh section */
+    padding-top: 170px;
+    padding-bottom: 55px;
+}
+
+.card {
+    background-color: #ffffff; /* Warna latar belakang grid */
+    padding: 10px; /* Jarak dalam grid */
+    margin-top: 20px; /* Jarak atas antara grid dan teks PORTFOLIO */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    border: 1px solid #ccc; /* Garis tepi grid */
+}
+ .card-text {
+    font-weight: bold;
+ }
+
+.Certification {
+    background-color: #ffffff;
+}
+.itemSosmed {
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.kontak {
+    padding-bottom: 100px;
+}
+.navbar-brand {
+    font-family: fantasy;
+    font-size: 25px;
+    font-style: italic; 
+}
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
